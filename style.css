@@ -38,7 +38,8 @@ main{
     height: 95%;
     width: 10%;
     border-radius: 5px;
-
+    font-size: 50px;
+    text-align: center;
 }
 .operador{
     height: 80%;
@@ -52,6 +53,8 @@ main{
     height: 95%;
     width: 10%;
     border-radius: 5px;
+    font-size: 50px;
+    text-align: center;
 }
 .tercera_parte{
 
@@ -72,4 +75,16 @@ button{
     width: 90px;
     margin: 20px;
     font-size: 50px;
+}
+.seccion_1{
+    display: flex;
+}
+.seccion_2{
+    display: flex;
+}
+.seccion_3{
+    display: flex;
+}
+.seccion_4{
+    display: flex;
 }
