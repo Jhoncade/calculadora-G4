@@ -11,38 +11,38 @@
 <body>
     <main>
         <div class="primera_parte">
-            <div class="resultado"></div>
+            <div id="resultado" class="resultado"></div>
         </div>
         <div class="segunda_parte">
-            <input type="number" class="primer_numero">
-            <label for="" class="operador">+</label>
-            <input type="number" class="segundo_numero">
+            <input type="text" class="primer_numero" id="num_1">
+            <label for="" class="simbolo" id="simbolo"></label>
+            <input type="text" class="segundo_numero" id="num_2">
         </div>
         <div class="tercera_parte">
             <div class="contenedor">
                 <div class="seccion_1">
-                    <button class="boton numero1">7</button>
-                <button class="boton numero2">8</button>
-                <button class="boton numero3">9</button>
-                <button class="boton numero4">+</button>
+                <button id="btn_7" class="boton numero1">7</button>
+                <button id="btn_8" class="boton numero2">8</button>
+                <button id="btn_9" class="boton numero3">9</button>
+                <button id="btn_+" class="boton numero4" onclick="operador('+')">+</button>
                 </div>
                 <div class="seccion_2">
-                    <button class="boton numero5">4</button>
-                    <button class="boton numero6">5</button>
-                    <button class="boton numero7">6</button>
-                    <button class="boton numero8">-</button>
+                    <button id="btn_4" class="boton numero5">4</button>
+                    <button id="btn_5" class="boton numero6">5</button>
+                    <button id="btn_6" class="boton numero7">6</button>
+                    <button id="btn_-" class="boton numero8" onclick="operador('-')" >-</button>
                 </div>
                 <div class="seccion_3">
-                    <button class="boton numero9">1</button>
-                    <button class="boton numero10">2</button>
-                    <button class="boton numero11">3</button>
-                    <button class="boton numero12">*</button>
+                    <button id="btn_1" class="boton numero9">1</button>
+                    <button id="btn_2" class="boton numero10">2</button>
+                    <button id="btn_3" class="boton numero11">3</button>
+                    <button id="btn_*" class="boton numero12" onclick="operador('*')">*</button>
                 </div>
                 <div class="seccion_4">
-                    <button class="boton numero13">0</button>
-                    <button class="boton numero14">=</button>
-                    <button class="boton numero15">AC</button>
-                    <button class="boton numero16">/</button>
+                    <button id="btn_0" class="boton numero13">0</button>
+                    <button id="btn_=" class="boton numero14" onclick="mostrar()">=</button>
+                    <button id="btn_AC" class="boton numero15" onclick="operador('AC')">AC</button>
+                    <button id="btn_/" class="boton numero16" onclick="operador('/')">/</button>
                 </div>
                 
             </div>   
